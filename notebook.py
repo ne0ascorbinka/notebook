@@ -39,11 +39,5 @@ class Note:
     def match(self, search_filder: str) -> bool:
         return search_filder in self.memo or search_filder in self.tags
 
-class Menu:
-    ...
-
-class CommandOption:
-    ...
-
 if __name__ == '__main__':
     ...
